@@ -358,11 +358,6 @@ boxplot(data.frame("Food, beverages and tobacco" = as.numeric(Data_cleaned[[3]][
 boxplot(data.frame("Food" = as.numeric(Data_cleaned[[4]][,4]),"Agricultural raw materials" = as.numeric(Data_cleaned[[4]][,6]),"Fuels" = as.numeric(Data_cleaned[[4]][,8]),"Ores and metals" = as.numeric(Data_cleaned[[4]][,10]),"Manufactures"=as.numeric(Data_cleaned[[4]][,12])), main = "Exports in 2005", cex.axis = 0.5)
 boxplot(data.frame("Food" = as.numeric(Data_cleaned[[4]][,5]),"Agricultural raw materials" = as.numeric(Data_cleaned[[4]][,7]),"Fuels" = as.numeric(Data_cleaned[[4]][,9]),"Ores and metals" = as.numeric(Data_cleaned[[4]][,11]),"Manufactures"=as.numeric(Data_cleaned[[4]][,13])),main = "Exports in 2016",cex.axis = 0.5)
 
-##########################################################################################################
-boxplot(data.frame("Food" = as.numeric(Data_cleaned[[5]][,4]),"Agricultural raw materials" = as.numeric(Data_cleaned[[5]][,6]),"Fuels" = as.numeric(Data_cleaned[[5]][,8]),"Ores and metals" = as.numeric(Data_cleaned[[5]][,10]),"Manufactures"=as.numeric(Data_cleaned[[5]][,12])), main = "Imports in 2005", cex.axis = 0.5)
-boxplot(data.frame("Food" = as.numeric(Data_cleaned[[5]][,5]),"Agricultural raw materials" = as.numeric(Data_cleaned[[5]][,7]),"Fuels" = as.numeric(Data_cleaned[[5]][,9]),"Ores and metals" = as.numeric(Data_cleaned[[5]][,11]),"Manufactures"=as.numeric(Data_cleaned[[5]][,13])),main = "Imports in 2016",cex.axis = 0.5)
-
- 
 
 
 
